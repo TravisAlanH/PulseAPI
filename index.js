@@ -1,5 +1,5 @@
-const app = require('express')();
+const app = require("express")();
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-}
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
